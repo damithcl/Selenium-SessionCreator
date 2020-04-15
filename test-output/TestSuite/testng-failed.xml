@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <test thread-count="3" name="testGuru(failed)" parallel="methods">
+    <classes>
+      <class name="loginloop.loop.SessionFactory">
+        <methods>
+          <include name="executSession"/>
+          <include name="executSession2"/>
+          <include name="executSession1"/>
+        </methods>
+      </class> <!-- loginloop.loop.SessionFactory -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

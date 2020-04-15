@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Independent test Suite" >
+  <listeners>
+    <listener class-name="org.cinglevue.tests.AnnotationTransformer" />
+  </listeners>
+  <test name="Independent test">
+    <classes>
+     <class name="org.cinglevue.tests.SessionFactory" />
+    </classes>
+  </test>
+</suite>
+<!--  <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="method" >
+<test name="testGuru">
+<classes>
+<class name="loginloop.loop.SessionFactory">
+</class>
+</classes>
+</test>
+</suite>  -->

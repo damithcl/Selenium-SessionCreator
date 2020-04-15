@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Independent test Suite" duration-ms="32569" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:38 IST">
+    <groups>
+    </groups>
+    <test name="Independent test" duration-ms="32569" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:38 IST">
+      <class name="org.cinglevue.tests.SessionFactory">
+        <test-method status="PASS" signature="init()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="init" is-config="true" duration-ms="63" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="executSession()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="executSession" duration-ms="32224" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSession -->
+        <test-method status="PASS" signature="executSession()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="executSession" duration-ms="23574" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSession -->
+        <test-method status="PASS" signature="executSession()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="executSession" duration-ms="29589" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSession -->
+        <test-method status="PASS" signature="executSession()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="executSession" duration-ms="23115" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSession -->
+        <test-method status="PASS" signature="executSession()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="executSession" duration-ms="29364" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSession -->
+        <test-method status="PASS" signature="executSession()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="executSession" duration-ms="20603" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSession -->
+        <test-method status="PASS" signature="executSession()[pri:0, instance:org.cinglevue.tests.SessionFactory@2525ff7e]" name="executSession" duration-ms="24857" started-at="2020-04-15T11:21:06 IST" finished-at="2020-04-15T11:21:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSession -->
+      </class> <!-- org.cinglevue.tests.SessionFactory -->
+    </test> <!-- Independent test -->
+  </suite> <!-- Independent test Suite -->
+</testng-results>
